@@ -1,0 +1,248 @@
+@font-face{
+    font-family: "Myriad-Pro";  
+    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Myriad Pro Regular;
+}
+.container {
+    width: 1062px;
+    margin: auto;
+    background-color: #e7e7e7;
+}
+/*--HEADER--*/
+.top {
+    height: 118px;
+    background: linear-gradient(#2a2d30, #363f45);
+}
+.border-color {
+    height: 2px;
+    background: linear-gradient(#ff59ef, #ffe413);
+}
+.top h1 {
+    margin: 0 0 0 78px;
+    float: left;
+    padding-top: 38px;
+    font-size: 42px;
+    color: #eaebed;
+}
+.top p {
+    margin: 0;
+    padding: 58px 0 48px 40px;
+    display: inline-flex;
+    color: #babfc7;
+}
+.search-input {
+    float: right;
+}
+.top input {
+    width: 224px;
+    height: 27px;
+    margin: 53px 78px 39px 0;
+    border-radius: 10px;
+    border: 0;
+    background-color: #282c2f;
+    outline: none;
+    padding-left: 5px; 
+}
+
+.search-input i{
+    position: relative;
+    left: -105px;
+    color: #535557;
+}
+.top-menu {
+    background-color: #1d2023;
+    display: inline-flex;
+    width: 100%;
+    padding-left: 48px;
+    height: 73px;
+    border-bottom: 7px solid #000000;
+}
+.top-menu div{
+    margin-left: 30px;
+    justify-content: center;
+}
+.top-menu div h2 {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 16px;
+    color: #bac0c9;
+}
+.top-menu div p {
+    margin: 0;
+    font-size: 11px;
+    color: #656b74;
+    padding-top: 5px;
+    padding-bottom: 9px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 9px 9px 9px;
+    border-color: transparent transparent #e7e7e7 transparent;
+    margin-left: 25px !important;
+}
+/* MAIN */
+
+.contact-form {
+    width: 50%;
+    margin: 40px auto;
+    background-color: #282c2f;
+    border-radius: 5%;
+}
+form {
+    padding: 5% 27.5%;
+}
+.input {
+    display: block;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 5px;
+    width: 235px;
+    height: 25px;
+    background-color: #e7e7e7;
+    outline: none;
+    padding-left: 3px;
+}
+.contact-form textarea {
+    width: 235px;
+    height: 75px;
+    display: block;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    padding: 3px;
+}
+.contact-form label {
+    color: #bac0c9;
+}
+.submit-buton {
+    width: 100px;
+    height: 25px;
+    margin: 3% 31%;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    background-color: #e5e5e5;
+}
+.error {
+    color: red;
+    font-weight: 400;
+    display: block;
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #bac0c9;
+}
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background: linear-gradient(#2a2e31, #2a2d30);
+    display: flow-root;
+}
+.pages {
+    float: left;
+    padding-left: 78px;
+}
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+.pages-list li {
+    width: 282px;
+    border-bottom: 1px solid #08090a;
+    font-size: 11px;
+    color: #bac0c9;
+    line-height: 3;
+}
+ul li:last-child {
+    border: none;
+}
+.pages-list li::before {
+  content: "\203A";
+  color: #bac0c9;
+  padding-right: 9px;
+}
+.categories {
+    float: left;
+    width: 234px;
+    padding-left: 30px;
+}
+.categories-list li {
+    font-size: 11px;
+    color: #bac0c9;
+    line-height: 3;
+}
+.categories p {
+    font-size: 12px;
+}
+.contact-info {
+    float: left;
+    margin-left: 78px;
+}
+.contact-info p{
+    font-size: 12px;
+}
+footer h2 {
+    font-size: 20px;
+    color: #bac0c9;
+}
+.contact-info-list li {
+    font-size: 12px;
+    color: #bac0c9;
+    line-height: 2;
+}
+.contact-info a {
+    text-decoration: none;
+    color: #bba016;
+}
+.all-rights {
+    width: 100%;
+    height: 64px;
+    display: block;
+    float: left;
+    padding-left: 78px;
+    background-color: #222426;
+    box-shadow: 0 10px 10px -5px black;
+}
+.all-rights-text {
+    float: left;
+}
+.all-rights-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #868585;
+    line-height: 3;
+}
+.follow-us {
+    float: right;
+    height: 64px;
+    display: flex;
+}
+.follow-us h3 {
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-top: 19px;
+    color: #bac0c9;
+    font-size: 20px;
+}
+.follow-icons {
+    padding: 15px 17px;
+}
+.follow-icons img {
+    padding-left: 10px;
+}
