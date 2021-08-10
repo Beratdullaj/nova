@@ -33,7 +33,7 @@ $posts = $query->fetchAll();
             <div class="border-color"></div>
         </header>
             <div class="top-menu">
-                <a href="main.php">
+                <a href="index.php">
                 <div>
                     <h2>Home</h2>
                     <p>Welcome</p>
@@ -167,7 +167,7 @@ $posts = $query->fetchAll();
                     <div class="pages">
                         <h2>Pages</h2>
                         <ul class="pages-list">
-                            <li><a href="main.php">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li>Blog</li>
                             <li>Gallery</li>
                             <li><a href="portfolio.php">Portfolio</a></li>

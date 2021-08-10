@@ -29,7 +29,7 @@
             $_SESSION['surname'] = $user['surname'];
             $_SESSION['permission'] = $user['permission'];
             if($user['permission']==0){
-                header('Location: ../main.php');
+                header('Location: ../index.php');
             }else {
                 header('Location: index.php');
             }
